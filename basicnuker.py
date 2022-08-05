@@ -100,5 +100,5 @@ async def auto(ctx):
         await ctx.send("Setup finished!")
     except Exception as errors:
         print(f"Bot Error: {errors}")
-token = "OTk2ODM0NDAzMzc0MzQyMjg1.G1C3AN.mBG45Ab9HUZtAK-FeTWsKqX_v9ynP9FAJd-I8c" 
+token = "token here" 
 bot.run(token)  # Starts the bot
