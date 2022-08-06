@@ -1,4 +1,3 @@
-from typing import overload
 from discord.ext import commands
 from os import system,name
 if name == 'nt':
