@@ -42,8 +42,9 @@ async def help(ctx):
   await ctx.send("~3~ special - nukes the server and adds a new channel 'whateveryouwant' = ex: #special ligma+balls")
   await ctx.send("~4~ spam - spams messages = example: #spam huh_?")
   await ctx.send("~6~ spamchannel - spams channels = ex: #spamchannel omg 10")
-  await ctx.send("~7~ create a vocal channel ex: #vocal")
-  await ctx.send("**Spaces are _+_**")
+  await ctx.send("~7~ create a vocal channel ex: #vocal hey 1")
+  await ctx.send("~8~ nukes & makes a simple server model)
+  await ctx.send("**Spaces are __+__**")
 
   
 @bot.command()
