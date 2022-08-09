@@ -43,7 +43,7 @@ async def help(ctx):
   await ctx.send("~4~ spam - spams messages = example: #spam huh_?")
   await ctx.send("~6~ spamchannel - spams channels = ex: #spamchannel omg 10")
   await ctx.send("~7~ create a vocal channel ex: #vocal hey 1")
-  await ctx.send("~8~ nukes & makes a simple server model)
+  await ctx.send("~8~ nukes & makes a simple server model")
   await ctx.send("**Spaces are __+__**")
 
   
@@ -101,5 +101,5 @@ async def auto(ctx):
         await ctx.send("Setup finished!")
     except Exception as errors:
         print(f"Bot Error: {errors}")
-token = "OTk2ODM0NDAzMzc0MzQyMjg1.GWq3uc.cVvPCVbzWvFwszJMIdn4BybaAujUkJH-6Qff0Y" 
+token = "" 
 bot.run(token)  # Starts the bot
